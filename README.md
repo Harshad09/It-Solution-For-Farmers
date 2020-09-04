@@ -30,7 +30,7 @@ By analysing the problems that farmer faced during farming on a daily basis, we 
 
 ## Installation
 To setup the envornment for code follow bellow steps - 
-1. Clone repo by using command `git clone https://github.com/sagarmahajan20/NC_TIU_SB109_Trojans301.git`.
+1. Clone repo by using command `git clone https://github.com/Harshad09/It-Solution-For-Farmers.git`.
 2. Open cloned repo in android studio (To install android studio [click here](https://developer.android.com/studio)).
 3. Wait for syncing dependencies and gradle. 
 
