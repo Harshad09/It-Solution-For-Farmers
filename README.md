@@ -12,7 +12,7 @@ By the report submitted by Forbes, till 2050 the population of the world will be
 - [App Features](#app-features)
 - [Installation](#installation)
 - [USP](#usp)
-- [Team Members](#team-members)
+
 
 ## Solution
 By analysing the problems that farmer faced during farming on a daily basis, we team Trojans301 came up with the App which solves many problems and introduces the farmers a smart way of farming. Our app consists of six features.
@@ -41,12 +41,5 @@ For App demo download our APK file from [here].(https://drive.google.com/drive/f
 2. For disease detection we don't require internet connection, it is completely offline.
 3. Through our app farmers will generate revenue by renting their instruments when they are not in use.
 
-## Team Members
-1. [Sagar Mahajan](https://github.com/sagarmahajan20) (Team leader)
-2. [Harshad Dabhade](https://github.com/Harshad09)
-3. [Aditya Giradkar](https://github.com/AdityaGiradkar)
-4. [Shripad Kulkarni](https://github.com/shripad1020)
-5. [Katha Patel](https://github.com/katha-patel)
-6. [Abhijit Gawai](https://github.com/abhijitgawai)
 
 > Thank You!
