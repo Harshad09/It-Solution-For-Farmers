@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/new3"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="150dp"
+            android:layout_height="158dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/rectangle" />
+
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/border"
+            android:fontFamily="serif"
+            android:text="Choose file" />
+
+        <Button
+            android:id="@+id/button_click_image"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/border"
+            android:text="Click Photo" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:inputType="text"
+            android:background="@drawable/rectangle"
+            android:fontFamily="serif"
+            android:hint="  Enter Product name" />
+
+        <EditText
+            android:id="@+id/edit_text_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@drawable/rectangle"
+            android:fontFamily="serif"
+            android:hint="  Enter Product Price" />
+
+        <EditText
+            android:id="@+id/edit_text_product_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="3dp"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:hint="Enter You Location" />
+
+        <EditText
+            android:id="@+id/edit_text_user_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rectangle"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:hint="  Enter Your Contact No." />
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="20dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:shadowColor="#C8918383"
+        android:text="Upload" />
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:itemBackground="@color/white"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottomnav"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

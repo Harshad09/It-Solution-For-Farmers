@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/TextAppearance.AppCompat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_menu"
+        app:title="Add Question"
+        app:titleMarginStart="40dp"
+        android:id="@+id/final_toolbar">
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

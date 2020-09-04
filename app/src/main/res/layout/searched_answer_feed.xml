@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:id="@+id/relative_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/forun_user"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/name_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/profile"
+                android:orientation="vertical"
+                android:layout_toEndOf="@+id/profile"
+                android:layout_marginStart="10dp">
+
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/harshad"
+                    android:textColor="@color/black"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/other_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="@string/pune"
+                    android:textColor="@color/grey"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/que_and_ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_1"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/this_is_answer_to_the_above_question_and_it_will_be_fetch_directly_from_the_firebase_database_and_i_really_dont_know_the_actual_size_of_the_ans"
+                android:textColor="@color/black"
+                android:fontFamily="serif"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/required_img"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:layout_marginTop="8dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitCenter"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/que_and_ans"
+            android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/upVote_btn"
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_upvote"
+                android:checked="false"
+                android:layout_marginLeft="8dp">
+            </Button>
+
+            <TextView
+                android:id="@+id/votes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/_31_1k"
+
+                ></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+
+</LinearLayout>

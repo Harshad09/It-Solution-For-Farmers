@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/rectangle" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="190dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="195dp"
+        android:padding="10dp"
+        android:fontFamily="serif"
+        android:text="Name"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="244dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="245dp"
+        android:padding="10dp"
+        android:fontFamily="serif"
+        android:text="Mobile"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="294dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="295dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Address"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="344dp"
+        android:background="#BFBEBA"/>
+
+
+    <TextView
+        android:id="@+id/olxdetail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="OLX Profile"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="394dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/forumdetail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="394dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Forum Profile"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="444dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/update_photo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="444dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Update Profile"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="494dp"
+        android:background="#BFBEBA"/>
+
+    <TextView
+        android:id="@+id/my_aadhar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="22dp"
+        android:layout_marginTop="494dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="Aadhar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="544dp"
+        android:background="#BFBEBA"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

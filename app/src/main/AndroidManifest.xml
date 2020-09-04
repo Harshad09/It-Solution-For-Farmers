@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.olx">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoofsih"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logoofsih_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WeatherActivity"></activity>
+        <activity android:name=".Sollution" />
+        <activity android:name=".Rent" />
+        <activity android:name=".Myscheme" />
+        <activity android:name=".CameraActivity" />
+        <activity android:name=".Irrigation" />
+        <activity android:name=".Chatbot" />
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".UploadProfile" />
+        <activity android:name=".olxselldetail" />
+        <activity android:name=".Profile" />
+        <activity android:name=".ImagesActivity" />
+        <activity android:name=".Sell" />
+        <activity android:name=".ForumActivity" />
+        <activity android:name=".Education" />
+        <activity android:name=".AddQuestion" />
+        <activity android:name=".Add_pert_answer" />
+        <activity android:name=".AddAnswer" />
+        <activity android:name=".EducationPerticularScheme" />
+        <activity android:name=".Search" />
+        <activity android:name=".SearchedAnswer" />
+        <activity android:name=".MyContent" />
+        <activity android:name=".AllComment" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

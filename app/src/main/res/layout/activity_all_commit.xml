@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllComment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:id="@+id/linearLayout_focus"
+            android:focusable="true">
+
+            <RelativeLayout
+                android:id="@+id/relative_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/profile"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/forun_user"
+
+                    />
+
+                <LinearLayout
+                    android:id="@+id/name_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/profile"
+                    android:orientation="vertical"
+                    android:layout_toEndOf="@+id/profile"
+                    android:layout_marginStart="10dp">
+
+
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="@string/harshad"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/other_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="serif"
+                        android:text="@string/pune"
+                        android:textColor="@color/grey"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/que_and_ans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative_1"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/this_is_question"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"/>
+
+
+                <ImageView
+                    android:id="@+id/required_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="198dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/REFReLayTellFriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+<!--                <EditText-->
+<!--                    android:id="@+id/commentBar"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/editext_rounded"-->
+<!--                    android:gravity="start"-->
+<!--                    android:focusableInTouchMode="true"-->
+<!--                    android:hint="Add your comment"-->
+<!--                    android:singleLine="true"/>-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/sendComment"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_alignRight="@+id/commentBar"-->
+<!--                    android:focusableInTouchMode="true"-->
+<!--                    android:background="@drawable/ic_send"/>-->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/commentrecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+            <!--    android:layout_width="match_parent"-->
+            <!--    android:layout_height="wrap_content"-->
+            <!--    orie></RelativeLayout>-->
+            <!--        <EditText-->
+            <!--            android:id="@+id/comment_ans"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="match_parent"-->
+            <!--            android:hint="Add your comment"-->
+            <!--            android:focusableInTouchMode="true"-->
+            <!--            android:background="@drawable/editext_rounded"-->
+
+            <!--            android:drawableEnd="@drawable/ic_send"></EditText>-->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

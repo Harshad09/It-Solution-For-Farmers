@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new3"
+    android:fitsSystemWindows="true"
+    tools:context=".Chatbot">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title=" ">
+
+        <ImageView
+            android:id="@+id/home_page"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/home"></ImageView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="25dp"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            app:fontFamily="serif"></TextView>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:src="@drawable/logout"></ImageView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="378dp"
+        android:layout_height="422dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHAT  YOU  SAY  :"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="110dp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/txtSpeechInput"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:textSize="26dp"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YOUR AGENT SAYS"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="110dp"
+                android:fontFamily="serif"
+                />
+
+            <TextView
+                android:id="@+id/outputTex"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:textSize="26dp"
+                android:textStyle="normal"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/btnSpeak"
+    android:layout_width="382dp"
+    android:layout_height="117dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="510dp"
+    android:layout_marginRight="10dp"
+    android:orientation="vertical">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangle"
+        android:scaleType="fitXY"
+        app:lottie_rawRes="@raw/chatbotmike"
+        android:layout_weight="1"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true" />
+
+</LinearLayout>
+
+
+
+</RelativeLayout>

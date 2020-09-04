@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/sell"
+        android:title="Sell"
+        android:icon="@drawable/sell"/>
+
+
+    <item
+        android:id="@+id/rent"
+        android:title="On Rent"
+        android:icon="@drawable/rent"/>
+
+
+
+</menu>

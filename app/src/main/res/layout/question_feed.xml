@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp">
+        <RelativeLayout
+            android:id="@+id/relative_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/tag_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/profile"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/Qname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:fontFamily="serif"
+                    />
+
+            </RelativeLayout>
+
+            <!--            <Button-->
+            <!--                android:layout_width="20dp"-->
+            <!--                android:layout_height="20dp"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_alignParentRight="true"-->
+            <!--                android:layout_marginEnd="0dp"-->
+            <!--                android:layout_marginRight="0dp"-->
+            <!--                android:background="@drawable/ic_cancel"-->
+            <!--                android:id="@+id/cancle_que"-->
+            <!--                ></Button>-->
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/que_and_ans"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relative_1"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/que_feed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How is your year 2020 going ?"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:fontFamily="serif"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

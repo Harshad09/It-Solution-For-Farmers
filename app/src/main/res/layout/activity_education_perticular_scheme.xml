@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducationPerticularScheme"
+    android:background="@drawable/new3">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways|snap">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <TextView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="किसान योजना"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:fontFamily="serif"
+                android:textColor="#FFFFFF"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/rectangle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+
+            <TextView
+                android:id="@+id/perticularSchemeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Scheme Name"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/perticularSchemeOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text=" Scheme overview"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:fontFamily="serif"/>
+
+
+
+            <TextView
+                android:id="@+id/benefit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+                android:text="पात्रता"
+                android:textColor="@color/bg"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+
+
+            <TextView
+                android:id="@+id/eligible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Documents"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:fontFamily="serif"/>
+
+
+
+            <TextView
+                android:id="@+id/Doc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="आवश्यक कागदपत्रे"
+                android:textColor="@color/bg"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/perticularSchemeDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Documents"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_margin="15dp"
+                android:fontFamily="serif"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/link"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="अर्ज करा"
+                android:textColor="@color/bg"
+                android:textSize="25sp"
+                android:padding="10dp"
+                 android:background="@drawable/cborder"
+                android:layout_marginBottom="15dp"
+                ></Button>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForumActivity"
+    android:id="@+id/activity_home">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_nav"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp" />
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bottom_nav"-->
+<!--        app:backgroundTint="@color/white"-->
+<!--        app:itemTextColor="@drawable/selector"-->
+<!--        app:itemIconTint="@drawable/selector"-->
+<!--        app:menu="@menu/menu_nav"-->
+<!--        android:layout_alignParentBottom="true">-->
+<!--    </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+    <ProgressBar
+        android:id="@+id/progressBarMain1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="78dp"
+        android:layout_height="62dp"
+        android:layout_alignBottom="@+id/recyclerview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="166.5dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="166.5dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginBottom="294dp"
+        android:outlineSpotShadowColor="@color/black"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="380dp"
+        android:src="@drawable/finalkalyan"
+        android:visibility="gone"></ImageView>
+
+
+</RelativeLayout>
