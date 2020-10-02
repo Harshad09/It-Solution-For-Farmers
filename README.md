@@ -1,6 +1,6 @@
 # NC_TIU_SB109_Trojans301
 
-## Problem Statement :-
+## Problem Statement :-IT Solutions for precision based irrigation, fertigation, crop growth, crop maturity in Horticulture. 
 #### Organization Name : Ministry of Agriculture Cooperation and Farmer Welfare.
 #### IT Solutions for precision based irrigation, fertigation, crop growth, crop maturity in Horticulture. 
 
