@@ -34,12 +34,21 @@ To setup the envornment for code follow bellow steps -
 2. Open cloned repo in android studio (To install android studio [click here](https://developer.android.com/studio)).
 3. Wait for syncing dependencies and gradle. 
 
-For App demo download our APK file from [here].(https://drive.google.com/drive/folders/1sA9hb0bzJv8MTFdscwXkz5h7cZuVEYST)
 
 ## USP
 1. Authentication is done by Aadhar so the farmers can get the schemes info according to their eligibility which is launched by state or central govt. 
 2. For disease detection we don't require internet connection, it is completely offline.
 3. Through our app farmers will generate revenue by renting their instruments when they are not in use.
 
+## Screenshots
+
+[![Whats-App-Image-2020-12-29-at-11-31-19-PM.jpg](https://i.postimg.cc/HxLVjbBw/Whats-App-Image-2020-12-29-at-11-31-19-PM.jpg)](https://postimg.cc/PLBtRvGJ)
+
+[![Whats-App-Image-2020-11-04-at-7-00-55-PM-2.jpg](https://i.postimg.cc/XYcJ8sPK/Whats-App-Image-2020-11-04-at-7-00-55-PM-2.jpg)](https://postimg.cc/ZWn4Yx40)
+
+[![Whats-App-Image-2020-11-04-at-7-00-55-PM-1.jpg](https://i.postimg.cc/Ls9s0zdc/Whats-App-Image-2020-11-04-at-7-00-55-PM-1.jpg)](https://postimg.cc/HrNHr8kz)
+[![Whats-App-Image-2020-11-04-at-7-00-55-PM.jpg](https://i.postimg.cc/MTXpzqpt/Whats-App-Image-2020-11-04-at-7-00-55-PM.jpg)](https://postimg.cc/S2Fhr08z)
+
+[![Whats-App-Image-2020-11-04-at-7-00-54-PM-1.jpg](https://i.postimg.cc/1zvzxfsf/Whats-App-Image-2020-11-04-at-7-00-54-PM-1.jpg)](https://postimg.cc/PL8HYfLj)
 
 > Thank You!
